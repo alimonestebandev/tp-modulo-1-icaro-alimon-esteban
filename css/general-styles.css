@@ -1,0 +1,46 @@
+.navbar {
+  width: 100%;
+}
+.navbar-logo {
+  width: 230px;
+}
+footer img:hover {
+  transform: scale(1.2);
+}
+footer img {
+  transition: all 200ms;
+}
+.active {
+  border-bottom: 2px solid black;
+}
+.nav-link:hover {
+  background: whitesmoke;
+}
+.footer {
+  border-top: 1px solid whitesmoke;
+}
+h6 {
+  margin: 0;
+}
+a {
+  animation: fade_animation 500ms ease-in;
+}
+@keyframes zoom_animation {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100;
+  }
+}
+
+@keyframes fade_animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}

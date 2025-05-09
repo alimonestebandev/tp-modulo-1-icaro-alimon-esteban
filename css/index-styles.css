@@ -1,0 +1,45 @@
+p {
+  color: #3d3d3d;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://mrwallpaper.com/images/hd/minimalist-plant-with-gold-pot-5xcw2qgfvmeag9hx.jpg");
+  border-bottom-right-radius: 130px;
+  border-bottom-left-radius: 130px;
+}
+.banner-content {
+  background: #00000079;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 130px;
+  border-bottom-left-radius: 130px;
+}
+.banner-logo {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  animation: zoom_animation 300ms ease-in;
+}
+
+h1,
+h5,
+h4,
+p,
+button {
+  animation: fade_animation 300ms ease-in;
+}
+
+.button {
+  width: 100%;
+  background: rgb(5, 218, 100);
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 100px;
+}
+.btn {
+  border-radius: 100px;
+}
