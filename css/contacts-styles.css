@@ -1,0 +1,35 @@
+.logoRRSS {
+  animation: zoom_animation 500ms ease-in;
+  width: 60px;
+  border: 3px solid #101a2c;
+  background-color: #101a2c;
+}
+h2,
+h5 {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+textarea {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+h3 {
+  color: rgb(97, 97, 97);
+  font-weight: 400;
+}
+
+form {
+  animation: fade_animation 300ms ease-in;
+  background: rgb(16, 26, 44);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
