@@ -1,54 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/general-styles.css" />
+    <!-- Bootstrap LINKS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- END bootstrap LINKS -->
+ 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🌱 Plantitas felices | Cuidamos tus plantas</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div>
-          <a href="index.html">
-            <img src="assetts/logo-2.png" alt="" />
+      <nav class="navbar bg-white border navbar-expand-lg">
+        <div class="container position-relative">
+          <a href="index.html" class="navbar-logo">
+            <img class="navbar-logo" src="assetts/logo-2.png" alt="" />
           </a>
-          <button aria-label="Toggle navigation">
-            <span></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div>
-            <ul>
-              <li>
-                <a href="index.html">Inicio</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="mx-4 navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-bold"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio
+                </a>
               </li>
-              <li>
-                <a href="services.html">Servicios</a>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Servicios</a>
               </li>
-              <li>
-                <a href="contacts.html">Contactos</a>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contactos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div>
-      <div>
-        <div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
           <main>
-            <section>
-              <div>
+            <section class="text-center text-white mx-auto">
+              <div
+                class="p-5 d-flex align-items-center justify-content-center"
+              >
                 <div>
-                  <img src="assetts/logo.png" alt="Logo" />
+                  <img  src="assetts/logo.png" alt="Logo" />
                   <div>
-                    <h1>"Cuidamos tus plantitas como si fueran nuestras"</h1>
-                    <div>
-                      <div>
-                        <a href="services.html">SERVICIOS</a>
+                    <h1 class="my-2 fw-light">
+                      "Cuidamos tus plantitas como si fueran nuestras"
+                    </h1>
+                    <div class="row my-3 justify-content-center">
+                      <div class="col-md-6">
+                        <a
+                          class="p-3 btn mb-2 mx-auto col-12 btn-primary"
+                          href="services.html"
+                          >SERVICIOS</a
+                        >
                       </div>
-                      <div>
-                        <a href="contacts.html">CONTACTOS</a>
+                      <div class="col-md-6">
+                        <a
+                          class="p-3 btn col-12 btn-primary"
+                          href="contacts.html"
+                          >CONTACTOS</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -56,66 +88,88 @@
               </div>
             </section>
             <section>
-              <div>
+              <div class="col-lg-8 mt-5 px-2 mx-auto">
                 <h4>
                   ¿Te vas de viaje y no querés preocuparte por tus plantas?
                 </h4>
-                <p>
+                <p class="mb-5">
                   En <strong>Plantitas Felices</strong>, entendemos lo
                   importantes que son tus plantitas para vos. Por eso ofrecemos
                   un servicio especializado para que estén cuidadas mientras vos
                   no estás.
-                  <strong>
-                    Podés traer tus plantas a nuestras instalaciones </strong
+                  <strong
+                    >Podés traer tus plantas a nuestras instalaciones</strong
                   >, donde recibirán atención diaria en un entorno pensado para
                   su bienestar, o bien
-                  <strong>
-                    podés solicitar que nuestro personal las cuide en tu hogar </strong
+                  <strong
+                    >podés solicitar que nuestro personal las cuide en tu
+                    hogar</strong
                   >, en las franjas horarias que vos elijas. <br /><br />
-                  <strong>
-                    Nos encargamos del riego, la luz, el control de su estado y
-                    cualquier indicación especial
-                  </strong>
+                  <strong
+                    >Nos encargamos del riego, la luz, el control de su estado y
+                    cualquier indicación especial</strong
+                  >
                   que necesiten. Ya sea que tengas unas macetas en el balcón o
                   un rincón lleno de verdes compañeras, adaptamos el cuidado a
                   cada caso. <br /><br />
-                  <strong>
-                    Cuidamos tus plantitas como si fueran nuestras. Porque lo
-                    son, mientras vos no estás.
-                  </strong>
+                  <strong
+                    >Cuidamos tus plantitas como si fueran nuestras. Porque lo
+                    son, mientras vos no estás.</strong
+                  >
                 </p>
               </div>
-            </section>
-            <section>
-              <article>
-                <div>
-                  <img src="assetts/icon-check.png" alt="" />
-                  <h5>+15 Años de experiencia</h5>
-                </div>
-              </article>
-              <article>
-                <div>
-                  <img src="assetts/plants.png" alt="" />
-                  <h5>Productos certificados</h5>
-                </div>
-              </article>
-              <article>
-                <div>
-                  <img src="assetts/clients.png" alt="" />
-                  <h5>+500 Clientes satisfechos</h5>
-                </div>
-              </article>
-            </section>
-          </main>
-          <footer>
-            <div>
-              <div>
-                <h6>Plantitas Felices ©</h6>
+              </section>
+              <section class="row my-5">
+                <article class="col-sm-4 text-center">
+                  <div class="py-3 h-100 rounded">
+                    <img
+                      style="width: 100px;"
+                      class="image-check"
+                      src="assetts/icon-check.png"
+                      alt=""
+                    />
+                    <h5 class="mt-3">+15 Años de experiencia</h5>
+                  </div>
+                </article>
+                <article class="col-sm-4 text-center">
+                  <div class="py-3 h-100 rounded">
+                    <img
+                      style="width: 100px;"
+                      class="image-check"
+                      src="assetts/plants.png"
+                      alt=""
+                    />
+                    <h5 class="mt-3">Productos certificados</h5>
+                  </div>
+                </article>
+                <article class="col-sm-4 h-100 text-center">
+                  <div class="py-3 rounded">
+                    <img
+                      style="width: 100px;"
+                      class="image-check"
+                      src="assetts/clients.png"
+                      alt=""
+                    />
+                    <h5 class="mt-3">+500 Clientes satisfechos</h5>
+                  </article>
+                </section>
               </div>
-              <div>
-                <h6>¡Seguinos en Redes!</h6>
-                <a>
+          </main>
+          <footer class="footer">
+            <div class="row position-relative footer py-3">
+              <div class="col-6 align-items-center justify-content-start">
+                <h6 class="fw-light">Plantitas Felices ©</h6>
+              </div>
+              <div
+                class="col-6 justify-content-end align-items-center d-flex gap-2"
+              >
+                <h6 class="fw-light h-100 d-flex align-items-center">
+                 ¡Seguinos en Redes!
+                </h6>
+                <a class="align-items-center h-100 d-flex"
+                >
                   <img
+                  class="align-items-center"
                     src="assetts/icon-facebook.jpg"
                     alt="Icono de Facebook "
                   />
@@ -126,5 +180,10 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
