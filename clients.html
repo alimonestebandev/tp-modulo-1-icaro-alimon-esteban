@@ -17,18 +17,20 @@
     <title>Clientes</title>
   </head>
   <body>
-    <main class="container mt-3">
-      <div class="row">
+    <main class="container mx-auto overflow-hidden mt-3 position-relative">
+      <div
+        class="overflow-hidden position-relative align-items-center justify-content-center mx-auto"
+      >
         <div
-          class="bg-dark align-items-center justify-content-center row text-white"
+          class="bg-dark px-2 align-items-center justify-content-center row text-white"
         >
-          <button
-            id="button-prev"
-            class="col-1 d-grid align-items-center justify-content-center"
-          >
-            🡨
-          </button>
-          <div class="col-10 d-flex align-items-center">
+          <div class="col d-flex align-items-center position-relative">
+            <button id="button-prev" class="buttons start-0">
+              🡨
+            </button>
+            <button id="button-next" class="buttons end-0">
+              🡪
+            </button>
             <img
               draggable="false"
               class="main-image"
@@ -37,12 +39,6 @@
               alt=""
             />
           </div>
-          <button
-            id="button-next"
-            class="col-1 d-grid align-items-center justify-content-center"
-          >
-            🡪
-          </button>
         </div>
         <div class="row bg-dark">
           <div
