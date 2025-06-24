@@ -1,0 +1,31 @@
+.main-image {
+  width: 100%;
+  background: red;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.mini-image {
+  border: 1px solid black;
+  width: 100%;
+  opacity: 50%;
+  object-fit: cover;
+  transition: all 200ms;
+  z-index: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 3px;
+}
+.mini-image:hover {
+  opacity: 100;
+  transform: scale(1.1);
+}
+button {
+  transition: all 200ms;
+  border: none;
+  background: none;
+  color: white;
+  transform: scale(2.2);
+}
+button:hover {
+  transform: scale(3.5);
+}
