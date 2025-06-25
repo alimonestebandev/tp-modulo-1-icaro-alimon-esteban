@@ -17,113 +17,70 @@
     <title>Clientes</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar bg-white border navbar-expand-lg">
-        <div class="container position-relative">
-          <a href="index.html" class="navbar-logo">
-            <img class="navbar-logo" src="assetts/logo-2.png" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="mx-4 navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contactos</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active fw-bold"
-                  aria-current="page"
-                  href="contacts.html"
-                  >Clientes</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="container mx-auto overflow-hidden">
-      <div class="mx-auto w-75 mt-4">
-        <h1>Nuestros clientes</h1>
-        <p>
-          Estamos felices por compartirles las experiencias de clientes que han
-          confiado en nosotros, por eso hemos recopilado fotografias que tomamos
-          para mostrarte
-        </p>
-      </div>
-
-      <div
-        class="overflow-hidden row align-items-center justify-content-center"
-      >
-        <div
-          class="bg-dark px-2 col-sm-11 col-lg-9 align-items-center overflow-hidden justify-content-center text-white"
-        >
-          <div class="d-flex position-relative">
-            <button id="button-prev" class="buttons start-0">
-              🡨
-            </button>
-            <button id="button-next" class="buttons end-0">
-              🡪
-            </button>
-            <img
-              draggable="false"
-              class="main-image"
-              id="principal-image"
-              src="https://uvn-brightspot.s3.amazonaws.com/assets/vixes/imj/vivirsalud/S/Sabias-que-hacer-jardineria-mejora-tu-salud-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="col-sm-11 col-lg-9 bg-dark">
-          <div
-            id="mini-images-container"
-            class="py-1 overflow-hidden d-flex align-items-center justify-content-center"
-          >
-            <div class="overflow-hidden">
-              <img
-                draggable="false"
-                class="mini-image"
-                id=""
-                src="${e}"
-                alt=""
-              />
+    <header id="navbar-container"></header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <main class="container mx-auto overflow-hidden">
+            <div class="mx-auto w-75 mt-4">
+              <h1>Nuestros clientes</h1>
+              <p>
+                Estamos felices por compartirles las experiencias de clientes
+                que han confiado en nosotros, por eso hemos recopilado
+                fotografias que tomamos para mostrarte
+              </p>
             </div>
-          </div>
+
+            <div
+              class="overflow-hidden row align-items-center justify-content-center"
+            >
+              <div
+                class="bg-dark px-2 col-sm-11 col-lg-9 align-items-center overflow-hidden justify-content-center text-white"
+              >
+                <div class="d-flex position-relative">
+                  <button id="button-prev" class="buttons start-0">
+                    🡨
+                  </button>
+                  <button id="button-next" class="buttons end-0">
+                    🡪
+                  </button>
+                  <img
+                    draggable="false"
+                    class="main-image"
+                    id="principal-image"
+                    src="https://uvn-brightspot.s3.amazonaws.com/assets/vixes/imj/vivirsalud/S/Sabias-que-hacer-jardineria-mejora-tu-salud-2.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-sm-11 col-lg-9 bg-dark">
+                <div
+                  id="mini-images-container"
+                  class="py-1 overflow-hidden d-flex align-items-center justify-content-center"
+                ></div>
+              </div>
+            </div>
+            <div class="mx-auto w-75 mt-4">
+              <h1>Clientes Felices, Plantas Saludables</h1>
+              <p>
+                Esta galería es un espacio dedicado a nuestros maravillosos
+                clientes y sus rincones verdes llenos de vida. Cada imagen es
+                una muestra del cariño, dedicación y alegría que compartimos al
+                cuidar de la naturaleza juntos. Gracias por confiar en nosotros
+                para acompañarlos en este viaje verde.
+              </p>
+              <p>
+                <i>
+                  Si tú también quieres aparecer aquí, ¡envíanos tu foto y
+                  presume tu planta feliz!
+                </i>
+              </p>
+            </div>
+          </main>
+          <footer id="footer-container" class="footer"></footer>
         </div>
       </div>
-      <div class="mx-auto w-75 mt-4">
-        <h1>Clientes Felices, Plantas Saludables</h1>
-        <p>
-          Esta galería es un espacio dedicado a nuestros maravillosos clientes y
-          sus rincones verdes llenos de vida. Cada imagen es una muestra del
-          cariño, dedicación y alegría que compartimos al cuidar de la
-          naturaleza juntos. Gracias por confiar en nosotros para acompañarlos
-          en este viaje verde.
-        </p>
-        <p>
-          <i>
-            Si tú también quieres aparecer aquí, ¡envíanos tu foto y presume tu
-            planta feliz!
-          </i>
-        </p>
-      </div>
-    </main>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
