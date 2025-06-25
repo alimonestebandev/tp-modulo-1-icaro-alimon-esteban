@@ -1,4 +1,5 @@
 const navbar_container = document.getElementById("navbar-container");
+const footer_container = document.getElementById("footer-container");
 
 console.log("se ejecuta navbar.js");
 let currentPage = window.location.pathname;
@@ -56,3 +57,27 @@ const navbarHTML = `
   `;
 
 navbar_container.innerHTML = navbarHTML;
+
+const footerHTML = `
+<div class="row position-relative footer py-3">
+              <div class="col-6 align-items-center justify-content-start">
+                <h6 class="fw-light">Plantitas Felices ©</h6>
+              </div>
+              <div
+                class="col-6 justify-content-end align-items-center d-flex gap-2"
+              >
+                <h6 class="fw-light h-100 d-flex align-items-center">
+                 ¡Seguinos en Redes!
+                </h6>
+                <a class="align-items-center h-100 d-flex"
+                >
+                  <img
+                  class="align-items-center"
+                    src="assetts/icon-facebook.jpg"
+                    alt="Icono de Facebook "
+                  />
+                </a>
+              </div>
+            </div>
+`;
+footer_container.innerHTML = footerHTML;
