@@ -8,7 +8,7 @@ console.log(currentPage);
 const navbarHTML = `
    <nav class="navbar bg-white border navbar-expand-lg">
           <div class="container position-relative">
-            <a href="index.html" class="navbar-logo">
+            <a href="/index.html" class="navbar-logo">
               <img class="navbar-logo" src="assetts/logo-2.png" alt="" />
             </a>
             <button
@@ -26,24 +26,25 @@ const navbarHTML = `
               <ul class="mx-4 navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link ${
-                    currentPage == "/" && "active"
+                    currentPage == "/" ||
+                    (currentPage == "index.html" && "active fw-bold")
                   } " href="index.html">Inicio </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link ${
-                    currentPage == "services.html" && "active"
+                    currentPage == "services.html" && "active fw-bold"
                   } " href="services.html">Servicios</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link ${
-                    currentPage == "contact.html" && "active"
+                    currentPage == "contacts.html" && "active fw-bold"
                   } " href="contacts.html">Contactos</a>
                 </li>
                 <li class="nav-item">
                   <a
                     class="nav-link ${
-                      currentPage == "clients.html" && "active"
-                    } fw-bold"
+                      currentPage == "clients.html" && "active fw-bold"
+                    } "
                     href="clients.html"
                     >Clientes</a
                   >
