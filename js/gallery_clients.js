@@ -50,9 +50,9 @@ function select_image(e) {
 
 const update_state_opacity = () => {
   imagesUrl.map((images) => {
-    document.getElementById(images).style.opacity = "50%";
+    document.getElementById(images).className = "mini-image";
   });
-  document.getElementById(imagesUrl[index]).style.opacity = "100%";
+  document.getElementById(imagesUrl[index]).className = "mini-image-selected";
 };
 
 window.onload = () => {

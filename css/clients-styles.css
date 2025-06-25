@@ -3,7 +3,7 @@
   margin: auto;
   background: red;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 .mini-image {
   padding-left: 4px;
@@ -15,14 +15,24 @@
   cursor: pointer;
 }
 .mini-image:hover {
-  opacity: 100;
+  opacity: 80%;
   transform: scale(1.1);
 }
+
+.mini-image-selected {
+  padding-left: 4px;
+  width: 100%;
+  opacity: 100%;
+  object-fit: cover;
+  transition: all 200ms;
+  z-index: 0;
+  cursor: pointer;
+}
+
 .buttons {
-  margin: 10px;
   padding: 0;
   background: none;
-  height: 50%;
+  height: 100%;
   width: 3%;
   display: flex;
   justify-content: center;
