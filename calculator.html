@@ -18,16 +18,32 @@
     <header id="navbar-container"></header>
     <div class="container">
       <div class="row">
-        <main class="col">
-          <input id="num-one" type="text" />
-          <input id="num-two" type="text" />
-
-          <button id="sum-btn">SUMAR</button>
-          <button id="subtract-btn">RESTAR</button>
-          <button id="multiply-btn">MULTIPLICAR</button>
-          <button id="divide-btn">DIVIDIR</button>
-
-          <input id="final-value" type="text" />
+        <main class="col mt-4 border p-5">
+          <h3 class="text-center">Calculadora</h3>
+          <div
+            class="d-flex p-5 border mb-2 gap-3 align-items-center justify-content-center"
+          >
+            <div>
+              <h6>Número 1</h6>
+              <input value="2000" id="num-one" type="text" />
+            </div>
+            <div>
+              <h6>Número 2</h6>
+              <input value="1" id="num-two" type="text" />
+            </div>
+          </div>
+          <div class="p-3 d-flex justify-content-center gap-2">
+            <button id="sum-btn">SUMAR</button>
+            <button id="subtract-btn">RESTAR</button>
+            <button id="multiply-btn">MULTIPLICAR</button>
+            <button id="divide-btn">DIVIDIR</button>
+          </div>
+          <h3 class="text-center">Resultado</h3>
+          <div
+            class="border p-3 mt-2 d-flex align-items-center justify-content-center"
+          >
+            <input id="final-value" type="text" />
+          </div>
         </main>
         <footer id="footer-container"></footer>
       </div>
