@@ -1,7 +1,7 @@
 .main-image {
   width: 95%;
   margin: auto;
-  background: red;
+  background: black;
   object-fit: cover;
   border-radius: 3px;
 }
@@ -31,10 +31,11 @@
 }
 
 .buttons {
+  margin: 0;
   padding: 0;
   background: none;
   height: 100%;
-  width: 3%;
+  width: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,13 +44,16 @@
   border: none;
   color: white;
   z-index: 10;
-  transform: scale(1.9);
   opacity: 50%;
 }
 .buttons:hover {
   opacity: 90%;
 }
+.buttons img {
+  width: 40px;
+}
 #button-prev {
+  left: 0;
   background: #000000;
   background: linear-gradient(
     90deg,
@@ -58,6 +62,7 @@
   );
 }
 #button-next {
+  right: 0;
   background: #000000;
   background: linear-gradient(
     270deg,
