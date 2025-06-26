@@ -9,7 +9,7 @@ console.log(currentPage);
 const navbarHTML = `
    <nav class="navbar bg-white border navbar-expand-lg">
           <div class="container position-relative">
-            <a href="/index.html" class="navbar-logo">
+            <a href="index.html" class="navbar-logo">
               <img class="navbar-logo" src="assetts/logo-2.png" alt="" />
             </a>
             <button
@@ -48,6 +48,15 @@ const navbarHTML = `
                     } "
                     href="clients.html"
                     >Clientes</a
+                  >
+                </li>
+                  <li class="nav-item">
+                  <a
+                    class="nav-link ${
+                      currentPage == "calculator.html" && " active fw-bold"
+                    } "
+                    href="calculator.html"
+                    >Calcular costos</a
                   >
                 </li>
               </ul>
