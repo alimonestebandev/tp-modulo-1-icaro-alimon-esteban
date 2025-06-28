@@ -53,6 +53,7 @@
   width: 40px;
 }
 #button-prev {
+  margin: 0;
   left: 0;
   background: #000000;
   background: linear-gradient(
