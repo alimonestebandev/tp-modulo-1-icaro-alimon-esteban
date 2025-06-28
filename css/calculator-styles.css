@@ -1,0 +1,18 @@
+.btn-calc {
+  border: 1px solid whitesmoke;
+  padding: 5px 25px 5px 25px;
+  border-radius: 4px;
+  transition: all 200ms;
+}
+.btn-calc:hover {
+  background: rgb(255, 179, 0);
+  color: white;
+  border-color: darkgray;
+}
+input {
+  border: none;
+  border-bottom: 3px solid rgb(94, 94, 94);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.365);
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
